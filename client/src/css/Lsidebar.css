@@ -3,12 +3,11 @@
     width: 25vw;
     height: 100vh;
     background-color: pink;
-    /* display: flex;
-    flex-direction: column; */
-    
+    display: flex;
+    flex-direction: column;    
   }
   
-  /* .sidebar-header {
+  .sidebar-header {
     padding: 20px;
   }
   
@@ -38,4 +37,4 @@
   
   .sidebar-item:hover {
     background-color: #e5e7eb;
-  } */
+  }

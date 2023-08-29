@@ -1,33 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .activitybox {
+  width: 49vw;
+  height: 40vh;
+  border-radius: 6px;
+  border: 1px solid #D9DDDC;
+  background: var(--high-fidelity-color-pure-white, #FFF);
+  padding-left: 1vw;
+  margin-top: 10vh;
+  margin-left: 1vw;
+}
+
+.activity-header {
+  font-size: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  list-style: 150%;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.route-box {
+  width: calc(25% - 8px);
+  height: auto;
+  border: 1px solid #D9DDDC;
+  border-radius: 5px;
+  padding: 15px; /* Increased padding to add space */
+  background-color: #F5F7F6;
+  box-sizing: border-box;
+  margin-bottom: 20px; /* Added margin to separate boxes */
+}
 
 
-    
-    width: 49vw;
-    height: 30vh;
+.route-heading {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+.route-content {
+  display: flex;
+  flex-direction: column;
+}
 
-    border-radius: 6px;
-    border: 1px solid #D9DDDC;
-    background: var(--high-fidelity-color-pure-white, #FFF);
-    
-    padding-left: 1vw;
-    margin-top: 10vh;
-    margin-left: 1vw;
+.route-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+}
 
+.data {
+  font-family: 'Poppins';
+  font-size: 12px;
+}
 
-    
+.route-content p {
+  font-family: 'Poppins';
+  font-size: 12px;
+  margin: 0;
+}
 
-  }
+.extra-box {
+  width: calc(25% - 10px);
+  height: auto;
+  border: 1px solid #D9DDDC;
+  border-radius: 6px;
+  padding: 15px; /* Increased padding to add space */
+  background-color: #F5F7F6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Added margin to separate boxes */
+}
 
-  
-  .activity-header {
-   
-    font-size: 10px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    list-style: 150%;
-
-  }
+.details-button {
+  margin-top: 10px;
+  font-family: 'Poppins';
+  font-size: 12px;
+  padding: 6px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 

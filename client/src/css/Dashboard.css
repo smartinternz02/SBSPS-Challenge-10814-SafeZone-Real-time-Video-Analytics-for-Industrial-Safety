@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.dashboard-header {
+
+    margin-left: 2vw;
+    margin-top: 4vh;
+
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.333%; 
+    letter-spacing: -1.2px;
+
+}
+
+.video-box {
+
+    width: 47vw;
+    height: 47vh;
+    border-radius: 6px;
+    border: 1px solid #D9DDDC;
+    background: var(--high-fidelity-color-pure-white, #FFF);
+    margin-left: 2vw;
+    margin-top: 1vh;
+
+}
+
+
+.LocDateMenu {
+
+}
+
+/* .video-subbox{
+
+    
+    width: 20vw;
+    height: 20vh;
+    margin-top: 5vh;
+    margin-left: 1vw;
+
+} */
+.connection {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.8px;
+    margin-top: 43vh;
+    margin-left: 1vw;
+}
+
+.summary-header {
+
+    margin-left: 2vw;
+    margin-top: 4vh;
+
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.333%; 
+    letter-spacing: -1.2px
+
+
+}
+
+.box1 {
+
+    width: 22vw;
+    height: 23vh;
+    margin-left: 2vw;
+    margin-top: 2vh ;
+    border-radius: 4px;
+    border: 1px solid #D9DDDC;
+    background: var(--high-fidelity-color-pure-white, #FFF);
+   
+    
+}
+
+/* .box2 {
+
+    width: 22vw;
+    height: 23vh;
+    margin-left: 24vw;
+    margin-top: 0vh ;
+    border-radius: 4px;
+    border: 1px solid #D9DDDC;
+    background: var(--high-fidelity-color-pure-white, #FFF);
+   
+
+
+} */
