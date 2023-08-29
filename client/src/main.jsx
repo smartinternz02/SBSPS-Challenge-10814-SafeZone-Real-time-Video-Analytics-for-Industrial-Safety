@@ -8,7 +8,7 @@ import Rsidebar from "../src/components/shared/Rsidebar.jsx"
 
 import "./index.css";
 import { BrowserRouter as Router } from "react-router-dom";
-import MidsectionActivity from "./components/shared/MidsectionActivity.jsx";
+import MidsectionActivity from "./components/MidsectionActivity.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>

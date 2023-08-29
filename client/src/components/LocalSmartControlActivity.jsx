@@ -1,5 +1,5 @@
 // import React from 'react';
-import '../../css/LocalSmartControlActivity.css'
+import '../css/LocalSmartControlActivity.css'
 
 function LocalSmartControlActivity() {
   return (
