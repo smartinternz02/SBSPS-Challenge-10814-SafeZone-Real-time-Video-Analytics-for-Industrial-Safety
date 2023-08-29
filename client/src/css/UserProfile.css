@@ -1,0 +1,52 @@
+.user-profile {
+
+    width: 40vw;
+    height: auto;
+    /* margin: 1cm auto 0;  */
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+    border-radius: 4px;
+    background-color: #D9DDDC;
+    
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #9e9d9d; /* Sample background color */
+    margin-right: 10px;
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-info-line {
+    display: flex;
+    align-items: center;
+    margin-top: 4px; /* Add some space between name and date/time */
+  }
+  
+  .user-name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 4px;
+    
+  }
+  
+  .user-date,
+  .user-time,
+  .user-temperature {
+    margin-right: 10px;
+    font-size: 0.8rem;
+  }

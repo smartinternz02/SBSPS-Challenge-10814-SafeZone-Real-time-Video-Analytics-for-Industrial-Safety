@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.activitybox {
+
+
+    
+    width: 49vw;
+    height: 30vh;
+
+    border-radius: 6px;
+    border: 1px solid #D9DDDC;
+    background: var(--high-fidelity-color-pure-white, #FFF);
+    
+    padding-left: 1vw;
+    margin-top: 10vh;
+    margin-left: 1vw;
+
+
+    
+
+  }
+
+  
+  .activity-header {
+   
+    font-size: 10px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    list-style: 150%;
+
+  }
+

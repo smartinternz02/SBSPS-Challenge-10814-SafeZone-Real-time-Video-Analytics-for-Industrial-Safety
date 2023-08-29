@@ -1,0 +1,41 @@
+
+.sidebar {
+    width: 25vw;
+    height: 100vh;
+    background-color: pink;
+    /* display: flex;
+    flex-direction: column; */
+    
+  }
+  
+  /* .sidebar-header {
+    padding: 20px;
+  }
+  
+  .sidebar-title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .sidebar-nav {
+    flex-grow: 1;
+  }
+  
+  .sidebar-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .sidebar-item:last-child {
+    border-bottom: none;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #e5e7eb;
+  } */

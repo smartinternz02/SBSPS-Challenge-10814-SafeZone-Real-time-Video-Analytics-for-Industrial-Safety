@@ -1,0 +1,102 @@
+.sidebar-container {
+    position: relative;
+    display: flex;
+  }
+  
+  .sidebar-left {
+    width: 237px;
+    height: 1024px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-right {
+    position: absolute;
+    width: 429px; /* Adjusted width */
+    height: 1024px;
+    background-color: white;
+    top: 0;
+    left: 1011px; /* Adjusted left position */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-header {
+    padding: 20px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .sidebar-title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .sidebar-nav {
+    flex-grow: 1;
+  }
+  
+  .sidebar-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #e5e7eb;
+    transition: background-color 0.2s;
+  }
+  
+  .sidebar-item:last-child {
+    border-bottom: none;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #e5e7eb;
+  }
+
+  .recent-activities-box {
+    width: 368px;
+    height: 430px;
+    border: 1px solid #e5e7eb;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .box-content {
+    /* Add your specific styling for the content here */
+  }
+  
+  /* Styles for the smaller boxes inside */
+  .small-box {
+    width: 339px;
+    height: auto;
+    font-size: 1.0rem;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 4px;
+    border: 0.7px solid #e5e7eb;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 4px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  } 
+
+  .timestamp {
+    margin-top: 4px;
+    color: #484c4e; /* Adjust text color as needed */
+    font-size: 0.8rem; /* Adjust font size as needed */
+  }
+  
